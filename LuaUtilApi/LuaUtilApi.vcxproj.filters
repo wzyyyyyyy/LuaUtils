@@ -30,4 +30,15 @@
       <Filter>源文件</Filter>
     </ClCompile>
   </ItemGroup>
+  <ItemGroup>
+    <Library Include="..\lib\LiteLoader.lib">
+      <Filter>资源文件</Filter>
+    </Library>
+    <Library Include="..\lib\lua.lib">
+      <Filter>资源文件</Filter>
+    </Library>
+    <Library Include="..\lib\LiteLuaLoader.lib">
+      <Filter>资源文件</Filter>
+    </Library>
+  </ItemGroup>
 </Project>
