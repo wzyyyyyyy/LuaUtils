@@ -1,6 +1,5 @@
 ﻿#pragma once
 #include <iostream>
-#include"../third-party/lua.hpp"
 #include<string>
 #include<string_view>
 #include<type_traits>

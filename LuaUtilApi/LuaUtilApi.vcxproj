@@ -158,6 +158,8 @@
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="dllmain.cpp" />
+    <ClCompile Include="LuaFileApi.cpp" />
+    <ClCompile Include="LuaHttpApi.cpp" />
     <ClCompile Include="pch.cpp">
       <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">Create</PrecompiledHeader>
       <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">Create</PrecompiledHeader>
@@ -166,6 +168,8 @@
     </ClCompile>
   </ItemGroup>
   <ItemGroup>
+    <Library Include="..\lib\libcrypto.lib" />
+    <Library Include="..\lib\libssl.lib" />
     <Library Include="..\lib\LiteLoader.lib" />
     <Library Include="..\lib\LiteLuaLoader.lib" />
     <Library Include="..\lib\lua.lib" />
